@@ -28,7 +28,7 @@
     "koa-router": "^5.1.2"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^2.3.2"
   },
   "engines": {
     "node": ">= 0.12.0"
