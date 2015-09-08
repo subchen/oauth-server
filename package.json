@@ -1,3 +1,25 @@
 {
-
+  "name": "oauth2-server",
+  "version": "1.0.0",
+  "description": "oauth2 server implemention",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony ./server.js"
+  },
+  "keywords": [
+    "oauth",
+    "oauth2"
+  ],
+  "author": "Guoqiang Chen",
+  "license": "Apache 2",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-fs": "^1.2.0",
+    "koa": "^1.0.0",
+    "koa-qs": "^2.0.0",
+    "koa-router": "^5.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
