@@ -13,5 +13,8 @@
     "jquery": "^2.1.4",
     "lodash": "^3.10.1",
     "systemjs": "^0.18.17"
+  },
+  "devDependencies": {
+    "systemjs-builder": "^0.13.5"
   }
 }
