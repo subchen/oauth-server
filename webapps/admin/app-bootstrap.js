@@ -4,7 +4,7 @@ System.config({
     babelOptions: {
         'optional': [
             'runtime',
-            'optimisation.modules.system'
+            'es6.spec.templateLiterals'
         ]
     },
     map: {
