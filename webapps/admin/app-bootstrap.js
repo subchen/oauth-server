@@ -1,5 +1,5 @@
 System.config({
-    baseURL: '/',
+    baseURL: '/subchen/nodejs/oauth-server/webapps/admin/',
     defaultJSExtensions: true,
     transpiler: 'babel',
     babelOptions: {
@@ -27,4 +27,4 @@ System.shims({
     lodash: window._
 });
 
-System.import('app-loading.js');
+System.import('app-main.js');
