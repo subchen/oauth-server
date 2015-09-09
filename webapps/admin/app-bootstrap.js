@@ -1,6 +1,5 @@
 System.config({
     baseURL: '/subchen/nodejs/oauth-server/webapps/admin/',
-    defaultJSExtensions: true,
     transpiler: 'babel',
     babelOptions: {
         'optional': [
@@ -9,7 +8,16 @@ System.config({
         ]
     },
     map: {
-        'babel': 'node_modules/babel-core/browser.min.js'
+        'babel': 'node_modules/babel-core/browser.min.js',
+        'babel-runtime': 'node_modules/babel-core/browser-polyfill.min.js'
+    },
+    meta: {
+        'babel': {
+            deps: ['babel-runtime']
+        },
+        'babel-runtime': {
+            format: 'global'
+        }
     }
 });
 
