@@ -22,9 +22,11 @@ System.shims = function (shims) {
 };
 
 System.shims({
-    jquery: window.jQuery,
-    angular: window.angular,
-    lodash: window._
+    'window': window,
+    'document': window.document,
+    'jquery': window.jQuery,
+    'angular': window.angular,
+    'lodash': window._
 });
 
 System.import('app-main.js');
